@@ -32,6 +32,7 @@ li{
     transition: all .3s ease-in-out;
     font-weight: 600;
     letter-spacing: 2px;
+    border-bottom: 1px solid black;
 }
 li:hover{
   background: black;
@@ -41,8 +42,9 @@ li:hover{
 a{
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 ul{
     margin-top: 40px;
     padding-left: 1px;
-    }
+}
