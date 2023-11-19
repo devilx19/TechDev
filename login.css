@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Encode Sans SC', sans-serif;
 }
+
 
 body {
     display: flex;
@@ -11,12 +14,14 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: white;
+    
 }
 
 .box {
     position: relative;
     padding: 5px;
-    width: 80%;
+    width: 380px;
+    height: 420px;
     background: url(back.png);
     background-repeat: no-repeat;
     background-position: center;
