@@ -114,6 +114,7 @@ body {
     background-color: black;
     color: white;
     letter-spacing: 2px;
+    
 }
 
 .box form input[type="submit"]:active

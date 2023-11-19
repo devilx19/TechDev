@@ -3,9 +3,10 @@ var form = document.getElementById("frm");
     var name,pass;
     name = document.getElementById("name").value;
     pass = document.getElementById("pass").value;
+    btn = document.getElementById("btn");
     if(name == "devil" && pass == "devil"){
         location.href = "home.html";
-        alert("Welcome Devil");
+        return false;
     }
     
  }
