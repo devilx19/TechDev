@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&display=swap');
 
-@font-face{
-  font-family: myfont ; src: url(font/Death_Devil.ttf);
-}
 body{
-    background-color: #000000;
     background: url(back.png);
     background-repeat: no-repeat;
     background-position: center;
