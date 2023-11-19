@@ -1,0 +1,44 @@
+body{
+    background-color: #000000;
+    background: url(back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 30vh;
+    background-attachment: fixed;
+    }
+
+main{
+    width: 100%;
+}
+input{
+    width: 100%;
+    border: none;
+    padding: 8px 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    height: 25px;
+    position: fixed;
+    top: 0;
+}
+input:focus{
+    outline: none;
+}
+li{
+    color: black;
+    list-style: none;
+    padding: 8px 12px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    margin-top: 40px;
+    padding-left: 1px;
+    }
