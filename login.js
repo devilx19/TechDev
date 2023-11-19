@@ -4,8 +4,8 @@ var form = document.getElementById("frm");
     name = document.getElementById("name").value;
     pass = document.getElementById("pass").value;
     if(name == "devil" && pass == "devil"){
-        window.location.href = "home.html";
-        window.alert("Welcome Devil");
+        location.href = "home.html";
+        alert("Welcome Devil");
     }
     
  }
