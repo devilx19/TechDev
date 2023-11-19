@@ -3,9 +3,13 @@ var form = document.getElementById("frm");
     var name,pass;
     name = document.getElementById("name").value;
     pass = document.getElementById("pass").value;
-    btn = document.getElementById("btn");
+    msg = document.getElementById("msg");
     if(name == "devil" && pass == "devil"){
         location.href = "home.html";
+        return false;
+    }
+    else{
+        msg.innerHTML = "Worng Details";
         return false;
     }
     
