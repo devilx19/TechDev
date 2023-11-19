@@ -33,6 +33,10 @@ li{
     font-weight: 600;
     letter-spacing: 2px;
 }
+li:hover{
+  background: black;
+  color: white;
+}
 
 a{
     text-decoration: none;
