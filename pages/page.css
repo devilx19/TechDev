@@ -1,0 +1,19 @@
+  @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&display=swap');
+
+    body{
+      background: url(../../back.png);
+      backdrop-filter: blur(5px);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-position-y: 30vh;
+      background-attachment: fixed;
+      font-family: 'Encode Sans SC', sans-serif;
+      padding: 10px;
+    }
+    code {
+      background: black;
+      color: white;
+      display: block;
+      padding: 8px 10px;
+      margin: 10px 15px;
+    }
