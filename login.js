@@ -4,7 +4,7 @@ var form = document.getElementById("frm");
     name = document.getElementById("name").value;
     pass = document.getElementById("pass").value;
     msg = document.getElementById("msg");
-    if(name == "devil" && pass == "devil"){
+    if(name == "venom" && pass == "venom"){
         location.href = "home.html";
         return false;
     }
