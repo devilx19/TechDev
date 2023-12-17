@@ -20,5 +20,8 @@
     a{
       text-decoration: none;
       color: #46a7f5;
+    }
+    img{
+      border: 1px solid black;
       
     }
