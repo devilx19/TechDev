@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using the winget upgrade Command</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&display=swap');
+
+    body {
+      background: url(../../back.png);
+      backdrop-filter: blur(5px);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-position-y: 30vh;
+      background-attachment: fixed;
+      font-family: 'Encode Sans SC', sans-serif;
+      padding: 10px;
+    }
+
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 0 1em;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 2em;
+        }
+
+        h2 {
+            color: black;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 0.3em;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        code {
+            background-color: #f4f4f4;
+            padding: 0.2em 0.4em;
+            border-radius: 4px;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 1em;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>How to Use the winget upgrade Command</h1>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>The <code>winget upgrade</code> command is part of the Windows Package Manager (winget), which allows you to upgrade installed software packages on your Windows system. This article will guide you through the basics of using this command effectively.</p>
+        </section>
+        <section id="usage">
+            <h2>Using the winget upgrade Command</h2>
+            <p>To upgrade all installed packages to their latest versions, simply open a command prompt and enter:</p>
+            <pre><code>winget upgrade --all</code></pre>
+            <p>This command will search for updates for all installed packages and install them.</p>
+        </section>
+        <section id="examples">
+            <h2>Examples</h2>
+            <p>If you want to upgrade a specific package, you can use the command with the package name or ID. For example, to upgrade the VLC media player, you can use:</p>
+            <pre><code>winget upgrade VLC</code></pre>
+            <p>This will upgrade the VLC media player to the latest available version.</p>
+        </section>
+    </main>
+    </body>
+</html>
