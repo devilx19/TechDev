@@ -23,6 +23,7 @@ input{
     position: fixed;
     top: 0;
     font-size: 20px;
+    margin-bottom: 10px;
 }
 input:focus{
     outline: none;
@@ -36,7 +37,7 @@ li{
     transition: all .3s ease-in-out;
     font-weight: 600;
     letter-spacing: 2px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lawngreen;
 }
 li:hover{
   background: white;
@@ -49,6 +50,6 @@ a{
     cursor: pointer;
 }
 ul{
-    margin-top: 40px;
+    margin-top: 50px;
     padding-left: 1px;
 }
