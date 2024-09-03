@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&display=swap');
 
 body{
-    background: url(back.png);
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 30vh;
@@ -17,17 +17,18 @@ input{
     width: 100%;
     border: none;
     padding: 8px 20px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    height: 25px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    height: 30px;
     position: fixed;
     top: 0;
+    font-size: 20px;
 }
 input:focus{
     outline: none;
 }
 li{
-    color: black;
+    color: white;
     list-style: none;
     padding: 8px 12px;
     letter-spacing: 0.5px;
@@ -38,8 +39,8 @@ li{
     border-bottom: 1px solid black;
 }
 li:hover{
-  background: black;
-  color: white;
+  background: white;
+  color: black;
 }
 
 a{
